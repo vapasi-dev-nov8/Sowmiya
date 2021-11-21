@@ -81,8 +81,4 @@ public class CoinProbability {
         return Objects.hash(probabilityOfEvent);
     }
 
-    public static void main(String[] args){
-        CoinProbability coinProbability = new CoinProbability(Event.HEAD_OR_HEAD);
-        System.out.println("probability : "+ coinProbability.probabilityOfEvent);
-    }
 }
